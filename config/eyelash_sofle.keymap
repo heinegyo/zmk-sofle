@@ -68,7 +68,7 @@
 &kp TILDE   &trans        &trans      &trans        &trans        &trans       &mmv MOVE_DOWN    &trans        &kp END    &kp UP      &kp HOME      &trans       &kp F12
 &trans      &trans        &trans      &trans        &trans        &trans       &mmv MOVE_LEFT    &trans        &kp LEFT   &kp DOWN    &kp RIGHT     &trans       &kp RBRC
 &trans      &trans        &trans      &trans        &trans        &trans       &mmv MOVE_RIGHT   &trans        &trans     &trans      &trans        &trans       &trans
-&kp C_MUTE  &trans        &trans      &trans        &trans        &trans       &mkp LCLK         &trans        &trans     &trans      &trans        &trans
+&kp C_MUTE  &trans        &trans      &trans        &kp ENTER     &trans       &mkp LCLK         &trans        &trans     &trans      &trans        &trans
             >;
 
             display-name = "layer1";
