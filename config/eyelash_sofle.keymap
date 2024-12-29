@@ -77,11 +77,11 @@
 
         layer_2 {
             bindings = <
-&bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_CLR  &trans  &mmv MOVE_UP     &kp N7          &kp N8      &kp N9      &kp PLUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans           &trans          &mkp LCLK       &mkp MCLK        &mkp RCLK    &trans &mmv MOVE_DOWN   &kp N4          &kp N5      &kp N6      &kp MINUS    &kp LBRC          &kp RBRC
-&trans           &trans          &trans          &trans           &trans      &trans  &mmv MOVE_LEFT   &kp N1          &kp N2      &kp N3      &kp GRAVE    &kp UNDER         &kp PLUS
-&trans           &trans          &trans          &trans           &trans      &trans  &mmv MOVE_RIGHT  &kp N0          &kp N0      &kp DOT     &kp EQUAL    &kp PLUS          &kp RCTRL
-&trans           &trans          &trans          &trans           &trans      &trans  &mkp LCLK        &trans          &trans      &trans      &kp PG_DN    &kp PG_UP
+&bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_CLR  &trans    &mmv MOVE_UP     &kp N7          &kp N8      &kp N9      &kp PLUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans           &trans          &mkp LCLK       &mkp MCLK        &mkp RCLK   &kp PG_UP &mmv MOVE_DOWN   &kp N4          &kp N5      &kp N6      &kp MINUS    &kp LBRC          &kp RBRC
+&trans           &trans          &trans          &trans           &trans      &kp PG_DN &mmv MOVE_LEFT   &kp N1          &kp N2      &kp N3      &kp GRAVE    &kp UNDER         &kp PLUS
+&trans           &trans          &trans          &trans           &trans      &trans    &mmv MOVE_RIGHT  &kp N0          &kp N0      &kp DOT     &kp EQUAL    &kp PLUS          &kp RCTRL
+&trans           &trans          &trans          &trans           &trans      &trans    &mkp LCLK        &trans          &trans      &trans      &kp PG_DN    &kp PG_UP
             >;
 
             sensor-bindings = <&scroll_encoder>;
