@@ -65,9 +65,9 @@
         layer_1 {
             bindings = <
 &kp GRAVE   &kp F1        &kp F2      &kp F3        &kp F4        &kp F5       &mmv MOVE_UP      &kp F6        &kp F7     &kp F8      &kp F9        &kp F10      &kp F11
-&kp TILDE   &trans        &trans      &trans        &trans        &trans       &mmv MOVE_DOWN    &trans        &kp HOME   &kp UP     &kp END      &trans       &kp F12
+&kp TILDE   &trans        &trans      &trans        &trans        &trans       &mmv MOVE_DOWN    &trans        &kp HOME   &kp UP      &kp END       &trans       &kp F12
 &trans      &trans        &trans      &trans        &trans        &trans       &mmv MOVE_LEFT    &trans        &kp LEFT   &kp DOWN    &kp RIGHT     &trans       &kp RBRC
-&trans      &trans        &trans      &trans        &trans        &trans       &mmv MOVE_RIGHT   &trans        &trans     &kp RCTRL      &trans        &trans       &trans
+&trans      &trans        &trans      &trans        &trans        &trans       &mmv MOVE_RIGHT   &trans        &trans     &kp RCTRL   &trans        &trans       &trans
 &kp C_MUTE  &trans        &trans      &trans        &kp ENTER     &trans       &mkp LCLK         &trans        &trans     &trans      &trans        &trans
             >;
 
@@ -77,11 +77,11 @@
 
         layer_2 {
             bindings = <
-&bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_CLR  &trans    &mmv MOVE_UP     &kp N7          &kp N8      &kp N9      &kp PLUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans           &trans          &mkp LCLK       &mkp MCLK        &mkp RCLK   &kp PG_UP &mmv MOVE_DOWN   &kp N4          &kp N5      &kp N6      &kp MINUS    &kp LBRC          &kp RBRC
-&trans           &trans          &trans          &trans           &trans      &kp PG_DN &mmv MOVE_LEFT   &kp N1          &kp N2      &kp N3      &kp GRAVE    &kp UNDER         &kp PLUS
-&trans           &trans          &trans          &trans           &trans      &trans    &mmv MOVE_RIGHT  &kp N0          &kp N0      &kp DOT     &kp EQUAL    &kp PLUS          &kp RCTRL
-&trans           &trans          &trans          &trans           &trans      &trans    &mkp LCLK        &trans          &trans      &trans      &kp PG_DN    &kp PG_UP
+&bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &trans      &trans    &mmv MOVE_UP     &kp PLUS         &kp KP_N7   &kp KP_N8   &kp KP_N9    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&bt BT_CLR       &trans          &mkp LCLK       &mkp MCLK        &mkp RCLK   &kp PG_UP &mmv MOVE_DOWN   &kp MINUS        &kp KP_N4   &kp KP_N5   &kp KP_N6    &kp LBRC          &kp RBRC
+&trans           &trans          &trans          &trans           &trans      &kp PG_DN &mmv MOVE_LEFT   &kp KP_MULTIPLY  &kp KP_N1   &kp KP_N2   &kp KP_N3    &kp KP_LPAR       &kp KP_RPAR
+&trans           &trans          &trans          &trans           &trans      &trans    &mmv MOVE_RIGHT  &kp KP_DIVIDE    &kp KP_N0   &kp KP_N0   &kp DOT      &trans         &trans
+&trans           &trans          &trans          &trans           &trans      &trans    &mkp LCLK        &trans           &trans      &kp EQUAL   &kp EQUAL    &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
