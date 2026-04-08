@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
   - $$mdi:keyboard-esc$$
@@ -131,7 +132,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
   - BT CLR ALL
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -144,7 +145,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:bluetooth-connect$$', h: '5'}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
